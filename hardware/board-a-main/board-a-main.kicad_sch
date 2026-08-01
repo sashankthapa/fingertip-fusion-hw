@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "3dd5528a-4c50-4c0e-addf-e3a83df206c7")
 	(paper "A4")
+	(title_block
+		(title "Main Controller Board")
+		(date "2026-08-02")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -4463,8 +4467,28 @@
 		(uuid "fc84754e-eb45-4b32-95a9-fab2fa4c2c3f")
 	)
 	(no_connect
+		(at 215.9 53.34)
+		(uuid "003b7770-2de4-4e64-b87d-abd795ebc9a5")
+	)
+	(no_connect
+		(at 228.6 53.34)
+		(uuid "061246a9-99e3-458d-9013-63dbb11a975b")
+	)
+	(no_connect
 		(at 167.64 53.34)
 		(uuid "0fada0f8-0255-41b6-ba20-ede6dcb4107a")
+	)
+	(no_connect
+		(at 205.74 53.34)
+		(uuid "172cb4e4-eee1-4f2b-b645-f276b50a1b4e")
+	)
+	(no_connect
+		(at 208.28 53.34)
+		(uuid "1d69c211-bb8f-4ee9-8594-4ff2a2d2601a")
+	)
+	(no_connect
+		(at 213.36 93.98)
+		(uuid "1f5857b8-c084-497e-8d2c-757a945c5884")
 	)
 	(no_connect
 		(at 172.72 93.98)
@@ -4475,8 +4499,48 @@
 		(uuid "2920b356-f402-43af-a046-3eecb30c986d")
 	)
 	(no_connect
+		(at 238.76 53.34)
+		(uuid "2de0e3fa-7b6e-4a7f-9ff0-6a213cadfad9")
+	)
+	(no_connect
+		(at 190.5 93.98)
+		(uuid "2eb7a252-8d20-44f5-ae6a-5d8a15e73b6d")
+	)
+	(no_connect
+		(at 220.98 93.98)
+		(uuid "353935e6-b6d1-4ddc-a087-061297ac347c")
+	)
+	(no_connect
+		(at 200.66 53.34)
+		(uuid "40f6c2a9-714b-4ba0-a6af-5bc2e9f40b92")
+	)
+	(no_connect
+		(at 210.82 53.34)
+		(uuid "476fdc69-79b0-4fc4-ad3e-552ac388b811")
+	)
+	(no_connect
+		(at 236.22 53.34)
+		(uuid "4c7a800a-dbcb-460f-8b05-b9046d3b7571")
+	)
+	(no_connect
+		(at 231.14 53.34)
+		(uuid "4dccd8ea-4684-4945-83ef-9b0d996a6b26")
+	)
+	(no_connect
+		(at 241.3 53.34)
+		(uuid "524f042e-2bf0-49fc-9d0a-7d86892ab90d")
+	)
+	(no_connect
 		(at 175.26 93.98)
 		(uuid "5f0bf58d-18e7-4566-a22c-9d07c3a212a5")
+	)
+	(no_connect
+		(at 205.74 93.98)
+		(uuid "6009f839-eca7-4ff4-8de6-e5cd57d11368")
+	)
+	(no_connect
+		(at 193.04 93.98)
+		(uuid "64c228d4-2d59-4f30-814d-764095a5ce68")
 	)
 	(no_connect
 		(at 185.42 53.34)
@@ -4487,16 +4551,88 @@
 		(uuid "7e7055ea-478f-409b-9601-e1328d0e414b")
 	)
 	(no_connect
+		(at 200.66 93.98)
+		(uuid "81aaea4a-3408-45c0-be39-5fe14e6bfe3b")
+	)
+	(no_connect
+		(at 208.28 93.98)
+		(uuid "8f6fa69f-5181-444a-8d76-942d736910c4")
+	)
+	(no_connect
+		(at 195.58 93.98)
+		(uuid "a3bfe487-ad2c-4106-8d46-ac80fa125766")
+	)
+	(no_connect
+		(at 226.06 53.34)
+		(uuid "aab91e7e-dc6a-4eb3-bf11-4295bc8a36ec")
+	)
+	(no_connect
+		(at 218.44 53.34)
+		(uuid "b6b07341-908a-4103-8f02-311c8369a081")
+	)
+	(no_connect
+		(at 210.82 93.98)
+		(uuid "b784903c-1e16-4707-b58b-e0c874241850")
+	)
+	(no_connect
+		(at 185.42 93.98)
+		(uuid "be00c6b1-6e45-47d3-9e4c-f5d6a1a1384a")
+	)
+	(no_connect
+		(at 223.52 53.34)
+		(uuid "c0ae74d2-753b-4a39-af5f-e84216175aec")
+	)
+	(no_connect
+		(at 187.96 93.98)
+		(uuid "c1ccd8e8-6744-4e22-bb97-7fa6650f721e")
+	)
+	(no_connect
+		(at 198.12 93.98)
+		(uuid "c27c3370-96d4-47d1-9c99-be7e49faff36")
+	)
+	(no_connect
+		(at 218.44 93.98)
+		(uuid "c96f9869-3a62-4e98-84cb-3b44290d2924")
+	)
+	(no_connect
 		(at 180.34 93.98)
 		(uuid "d3df24d5-cd9a-4cc4-ac25-df930db65051")
+	)
+	(no_connect
+		(at 215.9 93.98)
+		(uuid "d6b0f817-f81a-4751-91c0-11dcb25d66a5")
+	)
+	(no_connect
+		(at 220.98 53.34)
+		(uuid "dc1038d0-6e24-4887-9896-fcff79f36328")
+	)
+	(no_connect
+		(at 62.23 96.52)
+		(uuid "ede43e67-0336-4239-9355-38026505be71")
 	)
 	(no_connect
 		(at 165.1 53.34)
 		(uuid "ee9b1bfc-66d6-4aca-984b-85a4189e2434")
 	)
 	(no_connect
+		(at 203.2 93.98)
+		(uuid "f4bef693-4cb0-4d41-9291-0730b8613cba")
+	)
+	(no_connect
 		(at 182.88 53.34)
 		(uuid "f79b4164-552c-40d9-befe-e9b58171b741")
+	)
+	(no_connect
+		(at 62.23 93.98)
+		(uuid "f85d43e0-3ee3-4ed5-b33f-ad7543e6468e")
+	)
+	(no_connect
+		(at 213.36 53.34)
+		(uuid "f872ce25-bb63-47e9-8393-9295a6b9e29c")
+	)
+	(no_connect
+		(at 223.52 93.98)
+		(uuid "f9d51081-ff23-4af6-bffd-59e5a6e48c95")
 	)
 	(wire
 		(pts
@@ -5896,7 +6032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00422121-4904-4791-b101-6ee80aedbdc5")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 87.63 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5960,7 +6096,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6056,26 +6192,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0270d531-6cb8-4a71-acea-7b6a750e5edd")
-		(property "Reference" "R7"
-			(at 82.55 60.9601 0)
+		(property "Reference" "R2"
+			(at 87.63 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "5.1k"
-			(at 82.55 58.4201 0)
+			(at 87.63 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
@@ -6120,7 +6256,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6137,7 +6273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04b8648d-1287-4f02-94fd-acd596b1718b")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 61.214 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,7 +6337,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6218,7 +6354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05feeeb2-1ff5-40c0-9ae4-e4eacbe72f18")
-		(property "Reference" "C13"
+		(property "Reference" "C6"
 			(at 135.89 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6282,7 +6418,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "C13")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6694,7 +6830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6ce2d2-d280-45d2-bc2b-75e533b75d86")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 60.96 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6758,7 +6894,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7432,7 +7568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79c26d2c-3779-4ad0-98c3-d636dd0da7b8")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 82.042 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7511,7 +7647,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7528,7 +7664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8023d582-93ad-47e1-a76d-3509028ef37a")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 136.398 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7592,7 +7728,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e01fcb9-37c1-4083-9f23-4766b4c00eb5")
-		(property "Reference" "C15"
+		(property "Reference" "C4"
 			(at 136.144 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7673,7 +7809,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "C15")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7690,7 +7826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e0a27e0-072b-4288-9942-53b806954917")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 136.144 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7754,7 +7890,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7772,26 +7908,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f6c482a-2e5b-4636-9929-8ca1bc655327")
-		(property "Reference" "R6"
-			(at 173.9899 99.06 0)
+		(property "Reference" "R4"
+			(at 175.26 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10k"
-			(at 176.5299 99.06 0)
+			(at 175.26 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
@@ -7836,7 +7970,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7854,26 +7988,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97af8a16-e2fe-46d3-bee5-6a3a64e2c3d2")
-		(property "Reference" "U1"
-			(at 248.92 68.9767 0)
+		(property "Reference" "U3"
+			(at 255.27 65.6746 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "STM32F446RETx"
-			(at 251.46 68.9767 0)
+			(at 255.27 68.2146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
@@ -8105,7 +8237,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8201,26 +8333,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2730fd9-2709-40e5-b734-c9e22b7ed4e4")
-		(property "Reference" "R8"
-			(at 73.66 60.9601 0)
+		(property "Reference" "R1"
+			(at 78.74 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "5.1k"
-			(at 73.66 58.4201 0)
+			(at 78.74 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
@@ -8265,7 +8397,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8815,7 +8947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da396591-f1d7-4909-9059-b6f67c5c6f8e")
-		(property "Reference" "C14"
+		(property "Reference" "C5"
 			(at 135.89 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8879,7 +9011,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "C14")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8974,7 +9106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e09a539e-97be-46f6-b377-f14199cf6a05")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 232.41 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9036,7 +9168,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9214,7 +9346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4218c2d-7ecf-490e-8000-13f2a9aa5e18")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 73.66 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9285,7 +9417,7 @@
 		(instances
 			(project "board-a-main"
 				(path "/3dd5528a-4c50-4c0e-addf-e3a83df206c7"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)

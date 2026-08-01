@@ -1,0 +1,6 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1","1","2.2uf","","","","Capacitor_SMD:C_01005_0402Metric",""
+"C2","1","100nf","","","","Capacitor_SMD:C_01005_0402Metric",""
+"C3","1","10nf","","","","Capacitor_SMD:C_01005_0402Metric",""
+"J1","1","Conn_01x08","","","","Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",""
+"U1","1","ICM-42688-P","","","","ICM:PQFN50P300X250X97-14N",""
