@@ -5,7 +5,7 @@ The system consists of:
 
 - **Board A**: Main controller (STM32F446R) board responsible for USB communication, power regulation, timestamping, and interfacing with the host PC.
 - **Board B**: ICM-42688-P sensor board carrying an SPI IMU.
-The architecture separates the processing electronics from the sensing electronics, allowing the sensor to be placed at the robot's contact point while minimizing the size and weight of the fingertip board.
+The architecture separates the processing electronics from the sensing electronics, allowing the sensor to be placed on a fingertip. dimensions are (18mm x 14mm)
 
 # Repository Contents
 - [**Images**](/exports/images) 
@@ -17,11 +17,12 @@ The architecture separates the processing electronics from the sensing electroni
 - [**BOM of Board B**](/hardware/board-b-sensor/board-b-sensor.csv)
 
 # Architecture
+
 <img width="100%" height="100%" alt="Block-diagram" src="https://github.com/user-attachments/assets/2cc2a282-ff36-4283-b88a-e46440439bed" />
 
 Board A contains the STM32F446RE microcontroller, USB-C interface, 3.3 V regulator, debug connector, reset/boot circuitry, and the interface connector for the remote IMU.
 
-Board B is a compact sensor board mounted near the robot gripper fingertip. It contains only the IMU and the required decoupling components to keep the sensing electronics lightweight and mechanically simple.
+Board B is a compact sensor board mounted small enough to sit on a fingertip (18mm x 14mm). It contains only the IMU and the required decoupling components to keep the sensing electronics lightweight and mechanically simple.
 
 The two boards communicate using SPI over a 300 mm cable.
 
@@ -44,7 +45,7 @@ Although the selected IMU supports SPI clocks up to 24 MHz, I would conservative
 
 # IMU Timestamping
 
-The IMU is configured to generate a Data Ready interrup at 300 Hz. INT1 is connected to an STM32 external interrupt (EXTI). Using a hardware timer running at 1 MHz (1 us resolution), I would expect timestamp uncertainty on the order of 2–10 us.
+The IMU is configured to generate a Data Ready interrupt at 300 Hz. INT1 is connected to an STM32 external interrupt (EXTI). Using a hardware timer running at 1 MHz (1 us resolution), I would expect timestamp uncertainty on the order of 2–10 us.
 
 On every interrupt:
 
